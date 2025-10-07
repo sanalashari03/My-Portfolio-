@@ -1,0 +1,46 @@
+:root {
+  --accent: #6d28d9;
+  --text: #0f172a;
+}
+
+.contact {
+  background: #ffffff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+.contact p {
+  color: #475569;
+  margin-bottom: 15px;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.contact-info a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .contact-info p {
+    font-size: 1rem;
+  }
+}
